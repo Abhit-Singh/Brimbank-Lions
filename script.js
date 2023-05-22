@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // Typing effect
   let i = 0;
-  const speed = 50; // Speed of typing (adjust as needed)
+  const speed = 15; // Updated typing speed
   
   function typeWriter() {
     if (i < aboutText.length) {
@@ -16,4 +16,5 @@ document.addEventListener("DOMContentLoaded", function() {
   
   typeWriter();
 });
+
   
